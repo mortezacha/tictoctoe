@@ -1,0 +1,37 @@
+:root {
+  --image-width:120px;
+  --image-height:var(--image-width);
+  --answer-width: var(--image-width)*2; 
+}
+
+body{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+/* -------------------------- */
+.puzzle-container {
+  width: var(--answer-width);
+  float:left;
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0; 
+  border-spacing: 1;
+  align-items: center;
+}
+
+td{
+  margin: 0px;
+  padding: 0;
+  background-color: brown;
+}
+.answer-container {
+  float: left;
+  width: var(--image-width);
+  height: var(--image-height);
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  
+  align-items: center;
+}
